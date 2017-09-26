@@ -1,0 +1,15 @@
+return array(
+
+  'plugins' => array(
+    // add extra plugins that need to be loaded in the first pass here, one by line
+    'sfDependencyInjectionPlugin',
+    'liKioskPlugin',
+  ),
+
+  'filters' => array(
+    // add extra filters here
+    'exceptionCatcherFilter' => 'on',
+  ),
+
+);
+
