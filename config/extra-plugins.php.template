@@ -8,7 +8,7 @@ return array(
 
   'filters' => array(
     // add extra filters here
-    'exceptionCatcherFilter' => 'on',
+    //'exceptionCatcherFilter' => 'on',
   ),
 
 );

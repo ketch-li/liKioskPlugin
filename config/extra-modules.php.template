@@ -4,12 +4,9 @@
 
 return [
   'modules' => [
-    'kioskAdmin',
-    'kioskDefault',
-    'kioskTexts'
-  ],
-  'filters' => [
-    'exceptionCatcherFilter' => 'on',
+    'admin',
+    'default',
+    'texts',
   ],
 ];
 

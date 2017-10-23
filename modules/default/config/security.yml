@@ -1,2 +1,4 @@
 all:
+  is_secure: true
+public:
   is_secure: false
