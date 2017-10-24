@@ -273,12 +273,13 @@
 ))) ?>"></div>
 
 <div class="js-data" id="kiosk-config"
-  data-culture="<?php echo sfConfig::get('app_culture', 'FR') ?>"
+  data-culture="<?php echo sfConfig::get('app_culture', 'FRANCE') ?>"
   data-user-culture="<?php echo sfContext::getInstance()->getUser()->getCulture() ?>"
   data-idle-time="<?php echo sfConfig::get('app_idle_time', false); ?>"
   data-ui-labels="<?php echo htmlspecialchars(json_encode(sfConfig::get('app_ui_labels'))) ?>"
   data-show-location-prompt="<?php echo sfConfig::get('app_location_prompt') ?>"
   data-payment-method="<?php echo sfConfig::get('app_payment_method_id') ?>"
+  data-display-limit="<?php echo date('Y-m-d H:i:s', strtotime(sfConfig::get('app_display_limit'))) ?>"
  ></div>
 
 <!-- JS I18N -->
