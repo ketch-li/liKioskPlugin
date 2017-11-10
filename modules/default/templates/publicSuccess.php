@@ -241,6 +241,8 @@
   data-get-payment-record="<?php echo cross_app_url_for('kiosk', 'default/getPaymentRecord') ?>"
   data-get-task-list="<?php echo cross_app_url_for('kiosk', 'admin/getJsonTasks') ?>"
   data-update-task="<?php echo cross_app_url_for('kiosk', 'admin/done') ?>"
+  data-linked-manifestations="<?php echo cross_app_url_for('tck', 'transaction/getManifestations?id=-666') ?>"
+  data-linked-museum="<?php echo cross_app_url_for('tck', 'transaction/getPeriods?id=-666') ?>"
 ></div>
 
 <div class="js-data" id="kiosk-devices" data-devices="<?php echo htmlspecialchars(json_encode(sfConfig::get('app_io_devices',
