@@ -282,6 +282,7 @@
   data-show-location-prompt="<?php echo sfConfig::get('app_location_prompt') ?>"
   data-payment-method="<?php echo sfConfig::get('app_payment_method_id') ?>"
   data-display-limit="<?php echo date('Y-m-d H:i:s', strtotime(sfConfig::get('app_display_limit'))) ?>"
+  data-admin="<?php echo sfConfig::get('app_admin', false) ?>"
  ></div>
 
 <!-- JS I18N -->
