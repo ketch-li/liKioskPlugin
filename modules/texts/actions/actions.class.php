@@ -17,7 +17,7 @@ class textsActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-    $this->form = new OptionKioskTextsForm();
+    $this->form = new PluginOptionKioskTextsForm();
   }
 
   public function executeUpdate(sfWebRequest $request)
@@ -25,7 +25,7 @@ class textsActions extends sfActions
     $this->getContext()->getConfiguration()->loadHelpers('I18N');
     $values = $request->getPostParameters();
 
-    $this->form = new OptionKioskTextsForm();
+    $this->form = new PluginOptionKioskTextsForm();
     $this->form->bind($values, array());
     
     if ( !$this->form->isValid() )
