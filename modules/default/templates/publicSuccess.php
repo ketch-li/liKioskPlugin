@@ -175,9 +175,13 @@
 		</div>
 	</div>
 	<div class="mdl-dialog__actions">
-    	<button id="location-submit" class="mdl-button mdl-button--raised mdl-button--colored" type="submit">
+    	<button id="location-submit" class="mdl-button mdl-button--raised mdl-button--colored" value="true" type="submit">
     		<?php echo kioskConfiguration::getText('location_close', 'Continue to payment') ?>
     		<i class="material-icons">arrow_forward</i>
+    	</button>
+    	<button id="location-cancel" class="mdl-button mdl-button--raised orange" value="false" type="submit">
+    		<?php echo kioskConfiguration::getText('cancel', 'Cancel') ?>
+    		<i class="material-icons">close</i>
     	</button>
     </div>
   </form>
