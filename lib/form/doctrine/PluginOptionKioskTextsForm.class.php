@@ -150,6 +150,7 @@ class PluginOptionKioskTextsForm extends BaseOptionKioskTextsForm
         'postcode_validation'     => '',
         'retry'                   => '',
         'cancel'                  => '',
+        'cancelled'               => '',
         'hardware_title'          => '',
         'hardware_details'        => '',
         'payment_title'           => '',
