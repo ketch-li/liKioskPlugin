@@ -91,6 +91,9 @@ all:
       payment_title:
         en: 'Please follow payment terminal instructions'
         fr: 'Veuillez suivre les instructions sur le terminal de paiement'
+      payment_details:
+        en: 'To cancel your order, please press the red button (stop) on the payment terminal'
+        fr: 'Pour annuler votre commande, veuillez appuyer sur le bouton rouge (stop) du terminal de paiement'
       payment_failure:
         en: 'Payment failed'
         fr: 'Le paiement a échoué'
