@@ -193,8 +193,8 @@
   <form id="status-form" method="dialog">
 	  <h4 id="status-title" class="mdl-dialog__title"></h4>
 	  <div id="status-content" class="mdl-dialog__content">
-  	  	<p id="status-details"></p>
   	  	<img id="status-ept" src="/images/kiosk/ept.png" alt="Payment terminal">
+  	  	<p id="status-details"></p>
 	  </div>
 	  <div id="status-actions" class="mdl-dialog__actions">
   		<button type="submit" class="mdl-button" value="true"><?php echo kioskConfiguration::getText('retry', 'Retry') ?></button>
