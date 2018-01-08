@@ -1,2 +1,5 @@
 all:
   is_secure:  true
+
+getJsonTasks:
+  is_secure: false
