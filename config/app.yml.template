@@ -125,7 +125,7 @@ all:
         fr: 'Veuillez patienter pendant l'impression de vos billets'
         es: 'Por favor espere mientras sus boletos están impresos'
       ticket_failure:
-        en: 'Ticket printing failed, pPlease head to the front office'
+        en: 'Ticket printing failed, Please head to the front office'
         fr: 'Erreur d''impression, veuillez vous diriger vers le poste d''accueil'
         es: 'Error al imprimir, por favor ve a la recepción'
       final_title:
