@@ -4,7 +4,7 @@
 # default values
 all:
   open: true
-  culture: FRANCE # will be the default country in location prompt
+  culture: FR # will be the default country in location prompt
   idle_time: 60000 #allowed idle time in milliseconds before reset (default: 90000, set to false to disable)
   display_limit: 24 hours
   payment_method_id: 3
@@ -43,72 +43,96 @@ all:
       menu_manifestations: 
         fr: 'Activités'
         en : 'Museum activities'
+        es: 'Actividades'
       menu_museum: 
         fr: 'Visites'
         en: 'Museum visits'
+        es: 'Visitas'
       menu_store: 
         fr: 'Boutique'
         en: 'Store'
+        es: 'Tienda'
       breadcrumb_home:
         fr: 'Accueil'
         en: 'Home'
+        es: 'Bienvenida'
       breadcrumb_products:
         fr: 'Liste des produits'
         en: 'Products'
+        es: 'Lista de productos'
       cart_total:
         fr: 'Total'
         en: 'Total'
+        es: 'Total'
       cart_validate:
         fr: 'Valider'
         en: 'Checkout'
+        es: 'Validar'
       location_title:
         en: 'Please enter your post code or country'
         fr: 'Veuillez entrer votre code postal ou votre pays'
+        es: 'Por favor ingrese su código postal o país'
       location_close: 
         en: 'Continue to payment'
         fr: 'Continuer'
+        es: 'Proceda al pago'
       postcode:
         en: 'Post code'
         fr: 'Code postal'
+        es: 'Código postal'
       postcode_validation:
         en: 'Post code must onlay contain numbers'
         fr: 'Le code postal doit être composé uniquement de chiffres'
+        es: 'El código postal debe contener números'
       retry: 
         en: 'Retry'
         fr: 'Réessayer'
+        es: 'Volver a intentar'
       cancel:
         en: 'Cancel'
         fr: 'Annuler'
+        es: 'Anular'
       cencelled:
         en: 'Order cancelled'
         fr: 'Commande annulée'
+        es: 'Orden cancelada'
       hardware_title:
         en: 'Out of order'
         fr: 'Hors service'
+        es: 'Fuera de servicio'
       hardware_details:
         en: 'Please head to the front office for help'
         fr: 'Veuillez vous diriger vers le poste d'accueil
+        es: 'Por favor dirígete a la recepción'
       payment_title:
         en: 'Please follow payment terminal instructions'
         fr: 'Veuillez suivre les instructions sur le terminal de paiement'
+        es: 'Gracias por su orden'
       payment_details:
         en: 'To cancel your order, please press the red button (stop) on the payment terminal'
         fr: 'Pour annuler votre commande, veuillez appuyer sur le bouton rouge (stop) du terminal de paiement'
+        es: 'Para cancelar su pedido, presione el botón rojo (detener) del terminal de pago'
       payment_failure:
         en: 'Payment failed'
-        fr: 'Le paiement a échoué'
+        fr: 'Le paiement a échoué
+        es: 'Pago fallido'
       payment_success_title:
         en: 'Payment successfull'
         fr: 'Paiement accepté'
+        es: 'Pago aceptado'
       payment_success_details:
         en: 'Please wait while your tickets are being printed'
         fr: 'Veuillez patienter pendant l'impression de vos billets'
+        es: 'Por favor espere mientras sus boletos están impresos'
       ticket_failure:
-        en: 'Ticket printing failed'
-        fr: 'Erreur d'impression'
+        en: 'Ticket printing failed, pPlease head to the front office'
+        fr: 'Erreur d''impression, veuillez vous diriger vers le poste d''accueil'
+        es: 'Error al imprimir, por favor ve a la recepción'
       final_title:
         en: 'Thank you for your order'
         fr: 'Merci pour votre commande'
+        es: 'Gracias por su orden'
       final_details:
         en: 'Please wait for your receipt'
         fr: 'Veuillez attendre l'impression de votre reçu'
+        es: 'Por favor espere su recibo'
